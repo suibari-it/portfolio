@@ -1,101 +1,63 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>自己紹介</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自己紹介ページ</title>
     <style>
-      /* ページ全体のスタイル */
-      body {
-        font-family: "Helvetica Neue", "Arial", sans-serif;
-        font-size: 16px;
-        line-height: 1.6;
-        color: #333;
-        margin: 0;
-        padding: 0;
-      }
-      
-      /* ページのヘッダー */
-      header {
-        background-color: #333;
-        color: #fff;
-        padding: 2rem;
-        text-align: center;
-      }
-      
-      /* ページのタイトル */
-      h1 {
-        font-size: 3rem;
-        margin-top: 0;
-        margin-bottom: 1rem;
-      }
-      
-      /* ページのサブタイトル */
-      h2 {
-        font-size: 1.5rem;
-        margin-top: 0;
-        margin-bottom: 2rem;
-      }
-      
-      /* 自己紹介文 */
-      p {
-        font-size: 1.2rem;
-        margin-bottom: 2rem;
-      }
-      
-      /* 画像 */
-      img {
-        max-width: 100%;
-      }
-      
-      /* リンク */
-      a {
-        color: #0077c2;
-        text-decoration: none;
-      }
-      
-      /* ボタン */
-      .btn {
-        background-color: #0077c2;
-        border: none;
-        color: #fff;
-        display: inline-block;
-        font-size: 1rem;
-        margin-right: 1rem;
-        margin-bottom: 1rem;
-        padding: 0.5rem 1rem;
-        text-align: center;
-        text-decoration: none;
-        transition: background-color 0.3s ease;
-      }
-      
-      /* ボタン:hover */
-      .btn:hover {
-        background-color: #0069a9;
-      }
-      
-      /* ページのフッター */
-      footer {
-        background-color: #f5f5f5;
-        padding: 2rem;
-        text-align: center;
-      }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        
+        #header {
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        #header h1 {
+            margin: 0;
+        }
+        
+        #header img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        
+        #main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #ffffff;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+        }
+        
+        #main h2 {
+            margin-top: 0;
+        }
+        
+        #main p {
+            line-height: 1.5;
+            font-size: 16px;
+        }
     </style>
-  </head>
-  <body>
-    <!-- ページのヘッダー -->
-    <header>
-      <h1>自己紹介</h1>
-      <h2>私について知ってほしいこと</h2>
+</head>
+<body>
+    <header id="header">
+        <h1>自己紹介</h1>
+        <img src="https://via.placeholder.com/100" alt="プロフィール画像">
     </header>
     
-    <!-- 自己紹介文 -->
-    <p>初めまして、私は〇〇と申します。〇〇年〇〇月生まれで、現在は〇〇に住んでいます。〇〇大学〇〇学部卒業後、〇〇株式会社に入社し、〇〇の開発に従事しています。</p>
-    
-    <!-- 画像 -->
-    <img src="https://placehold.it/400x400" alt="プロフィール画像">
-    
-    <!-- リンク集 -->
-    <div>
-      <a href="#">GitHub</a>
-      <a href="#">LinkedIn</a>
-      <a href="#">
+    <main id="main">
+        <h2>自己紹介</h2>
+        <p>私は〇〇と申します。〇〇大学〇〇学部を卒業後、〇〇会社に入社しました。</p>
+        
+        <h2>趣味</h2>
+        <p>私の趣味は旅行です。今までに訪れた国は〇〇、〇〇、〇〇などです。</p>
+    </main>
+</body>
+</html>
